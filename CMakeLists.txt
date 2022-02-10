@@ -14,7 +14,7 @@ target_include_directories(matplotlib_cpp
     $<INSTALL_INTERFACE:include>
 )
 target_compile_features(matplotlib_cpp INTERFACE
-  cxx_std_11
+  cxx_std_17
 )
 # TODO: Use `Development.Embed` component when requiring cmake >= 3.18
 find_package(Python3 COMPONENTS Interpreter Development REQUIRED)
