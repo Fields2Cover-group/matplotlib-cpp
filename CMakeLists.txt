@@ -89,7 +89,7 @@ export(TARGETS matplotlib_cpp
   FILE ${PACKAGE_NAME}Config.cmake)
 
 # Install headers
-install(FILES "${${CMAKE_INSTALL_LIBDIR}}/matplotlibcpp.h"
+install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/include/matplotlibcpp.h"
   DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
 )
 
