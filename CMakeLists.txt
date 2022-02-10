@@ -53,6 +53,8 @@ install(
   EXPORT install_targets
 )
 
+export(PACKAGE matplotlib_cpp)
+
 
 # Examples
 add_executable(minimal examples/minimal.cpp)
