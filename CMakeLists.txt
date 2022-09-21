@@ -3,7 +3,7 @@ project(matplotlib_cpp LANGUAGES CXX)
 
 include(GNUInstallDirs)
 set(PACKAGE_NAME matplotlib_cpp)
-set(USING_PYTHON3 True)
+set(USING_PYTHON3 FALSE)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 set(INSTALL_LIB_DIR lib CACHE PATH "Installation directory for libraries")
 set(INSTALL_BIN_DIR bin CACHE PATH "Installation directory for executables")
